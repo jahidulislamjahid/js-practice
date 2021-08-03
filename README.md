@@ -1,6 +1,6 @@
 <style>
   p{
-    color:solid bule;
+    color: bule;
   }
 </style>
 # Table Of Content.
