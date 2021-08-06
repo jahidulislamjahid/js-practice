@@ -12,6 +12,9 @@ function factorial(number){ //declaring finction with a var 'number' to hold a v
 var myNumber = factorial(7); //giving a value by caling the function.
 console.log(myNumber);
 
+/*
+    getting factorial value of a number by taking the value of the given number directly in the variable 'i' and decreasing the value of 'i' up to 1 
+*/
 
 function fact(myNum){
     let digit = 1;
