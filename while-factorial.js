@@ -1,3 +1,15 @@
+/* 
+1! = 1
+2! = 2 x 1
+3! = 3 x 2 x 1
+4! = 4 x 3 x 2 x 1
+5! = 5 x 4 x 3 x 2 x 1
+6! = 6 x 5 x 4 x 3 x 2 x 1
+7! = 7 x 6 x 5 x 4 x 3 x 2 x 1
+8! = 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1
+9! = 9 x 8 x 7 x 6 x 5 x 4 x 3 x 2 x 1
+*/
+
 // getting factorial value using while loop 
 
 function factorial(number){ //declaring finction with a var 'number' to hold a value.
