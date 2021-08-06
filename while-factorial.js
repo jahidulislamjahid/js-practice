@@ -11,3 +11,16 @@ function factorial(number){ //declaring finction with a var 'number' to hold a v
 }
 var myNumber = factorial(7); //giving a value by caling the function.
 console.log(myNumber);
+
+
+function fact(myNum){
+    let digit = 1;
+    let i = myNum;
+    while(i>=1){
+        digit = digit * i;
+        i--;
+    }
+    return digit
+}
+let getnumber = fact(7);
+console.log(getnumber);
