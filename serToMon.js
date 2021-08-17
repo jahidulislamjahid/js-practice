@@ -1,12 +1,12 @@
 /* 
 converting mon from seer.
 */
-function seerToMon(mon){
+function seerToMon(mon) {
     let seerPerMon = 40;
-    if (typeof mon != 'number'){
-    return 'please input a valid quantity';
+    if (typeof mon != 'number') {
+        return 'please input a valid quantity';
     }
-    else{
+    else {
         mon = mon / seerPerMon;
         return mon;
     }
@@ -21,12 +21,12 @@ console.log(myQuantuty);
 /* 
 Total sales calculation on a store.
 */
-function totalSales(shirts, pants, shoes){
+function totalSales(shirts, pants, shoes) {
     const pricePerShirt = 100, pricePerPant = 200, pricePerShoe = 500;
-    if(typeof pricePerShirt != 'number' && typeof pricePerPant != 'number' && typeof pricePerShoe != 'number'){
+    if (typeof pricePerShirt != 'number' && typeof pricePerPant != 'number' && typeof pricePerShoe != 'number') {
         return 'please input the correct value';
     }
-    else{
+    else {
         const total = shirts * pricePerShirt + pants * pricePerPant + shoes * pricePerShoe;
         return total;
     }
@@ -41,20 +41,20 @@ console.log(myBuyings);
 /* 
 delivery cost for different quantity of products.
 */
-function deliveryCost(quantity){
+function deliveryCost(quantity) {
     let costPerHundred = 100, costPerTwohundred = 80, restCost = 50;
-    if(typeof quantity != 'number'){
-    return 'please input a valid number';
+    if (typeof quantity != 'number') {
+        return 'please input a valid number';
     }
-    if(quantity <= 100){
+    if (quantity <= 100) {
         quantity = quantity * costPerHundred;
         return quantity;
     }
-    else if(quantity <= 200){
+    else if (quantity <= 200) {
         quantity = 100 * costPerHundred + (quantity - 100) * costPerTwohundred;
         return quantity;
     }
-    else{
+    else {
         quantity = 100 * costPerHundred + 100 * costPerTwohundred + (quantity - 200) * restCost;
         return quantity;
     }
@@ -70,13 +70,13 @@ console.log(myTshirt);
 Getting perfect friends name from all friends.
 */
 let friends = ['Abu', 'Habu', 'Babu', 'Akram', 'Sunny', 'Sabu'];
-function perfectFriend(bestFriend){
+function perfectFriend(bestFriend) {
     let friend = [];
-    if(typeof bestFriend != 'object'){
+    if (typeof bestFriend != 'object') {
         return 'please check your input.'
     }
-    for(let i = 0; i<bestFriend.length; i++){
-        if(bestFriend[i].length == 5){
+    for (let i = 0; i < bestFriend.length; i++) {
+        if (bestFriend[i].length == 5) {
             friend.push(bestFriend[i]);
             break;
         }
